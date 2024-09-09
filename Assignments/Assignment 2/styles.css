@@ -6,6 +6,7 @@ table
 th,td
 {
     border: 1px solid #ddd; /* Border styling for table */
+    padding: 10px;
 }
 
 body
@@ -16,4 +17,9 @@ body
 .centerText /* this will center the text of the table and it's heading */
 {
     text-align: center;
+}
+
+th:hover,td:hover
+{
+    background-color: #f9f9f9;
 }
