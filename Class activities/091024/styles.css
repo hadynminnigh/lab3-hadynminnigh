@@ -8,6 +8,7 @@ header {
   color: white;
   padding: 10px;
   text-align: center;
+  margin:-10px;
 }
 
 #product-list {
@@ -16,9 +17,11 @@ header {
 
 .product {
   border: 1px solid #ccc;
-  padding: 10px;
+  padding: 5px;
   width: 30%;
-  text-align: center;
+  margin: 14px;
+  display: inline-block;
+  text-align:center;
 }
 
 /* Pseudo-classes for link behavior and order with errors */
@@ -36,6 +39,7 @@ footer {
   color: white;
   padding: 10px;
   text-align: center;
+  margin: -10px;
 }
 
 /* Clear floats to avoid parent collapse */
@@ -45,3 +49,12 @@ footer {
   clear: both;
 }
 /* Please use google to find out what this block of code is and why it is being used in this code */
+
+a:active, a:visited
+{
+  color: purple;
+}
+
+h2{
+  margin:2px;
+}
