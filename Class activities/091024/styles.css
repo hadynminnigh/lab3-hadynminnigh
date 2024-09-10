@@ -1,6 +1,8 @@
 /* Basic styling */
 body {
   font-family: Arial, sans-serif;
+  margin:0;
+  padding:0;
 }
 
 header {
@@ -8,7 +10,6 @@ header {
   color: white;
   padding: 10px;
   text-align: center;
-  margin:-10px;
 }
 
 #product-list {
@@ -43,7 +44,6 @@ footer {
   color: white;
   padding: 10px;
   text-align: center;
-  margin: -10px;
 }
 
 /* Clear floats to avoid parent collapse */
