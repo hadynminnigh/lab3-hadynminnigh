@@ -24,6 +24,10 @@ header {
   text-align:center;
 }
 
+.product:hover {
+  background-color: #f9f9f9;
+}
+
 /* Pseudo-classes for link behavior and order with errors */
 .product a {
   color: blue;
