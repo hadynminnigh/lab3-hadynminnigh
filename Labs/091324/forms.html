@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab Form</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Choose your color from the list below:</legend>
+
+            <input list="color">
+            <datalist id="color"> <!-- datalist provides a dropdown, but you can also search for a value -->
+                <option value="Red">
+                <option value="Blue">
+                <option value="Green">
+                <option value="Cyan">
+                <option value="Magenta">
+                <option value="Yellow">
+                <option value="Black">
+            </datalist>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Pick a day:</legend>
+            
+            <input type="button" value="Monday" id="day">
+            <input type="button" value="Tuesday" id="day">
+            <input type="button" value="Wednesday" id="day">
+            <input type="button" value="Thursday" id="day">
+            <input type="button" value="Friday" id="day">
+            <input type="button" value="Saturday" id="day">
+            <input type="button" value="Sunday" id="day">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Check all the boxes:</legend>
+            
+            <input type="checkbox" id="reqcheckbox" required>
+            <input type="checkbox" id="reqcheckbox" required>
+            <input type="checkbox" id="reqcheckbox" required>
+            <input type="checkbox" id="reqcheckbox" required>
+            <input type="checkbox" id="reqcheckbox" required>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Choose a color:</legend>
+            
+            <input type="color" id="choosecolor">
+        </fieldset>
+        
+        <br>
+
+        <fieldset>
+            <legend>Enter your birthday: </legend>
+            
+            <input type="date" id="birthday">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Enter current day and time: </legend>
+            
+            <input type="datetime-local" id="time">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Enter a fake email:</legend>
+            
+            <input type="email" id="fakeemail">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Enter your homework:</legend>
+            
+            <input type="file" id="homework">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>There is nothing here...</legend>
+            
+            <input type="hidden" id="hiddeninput">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Enter your favorite month:</legend>
+            
+            <input type="month" id="favmonth">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Enter a fake phone number:</legend>
+            
+            <input type="tel" id="fakenum">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Choose one of the following:</legend>
+            
+            <input type="radio" id="radiobuttons A" name="radios"> <label for="A">A</label>
+            <br>
+            <input type="radio" id="radiobuttons B" name="radios"> <label for="B">B</label>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>How tired are you:</legend>
+            
+            <label for="tiredrange">Not tired</label> <input type="range"> <label for="tiredrange">Very tired</label>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>This is a search bar!</legend>
+            
+            <input type="search" id="searchbar">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Enter your favorite number:</legend>
+            
+            <input type="number" id="favnum" required>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Enter your favorite word:</legend>
+        
+            <input type="text" id="favword">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Enter any time:</legend>
+            
+            <input type="time" id="time">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Enter the link to your favorite website</legend>
+            
+            <input type="url" id="favwebsite">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Enter any week:</legend>
+            
+            <input type="week" id="anyweek">
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Choose a car:</legend>
+            
+            <select id="favcar"> <!-- another type of dropdown, you have to select on this one -->
+                <optgroup label="Swedish Cars">
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                </optgroup>
+                <optgroup label="German Cars">
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </optgroup>
+            </select>
+        </fieldset>
+
+        <br>
+
+        <fieldset>
+            <legend>Enter secret password:</legend>
+
+            <input type="password" id="pass" required>
+        </fieldset>
+
+        <br>
+
+        <input type="reset"> <!-- resets the form -->
+
+        <input type="submit">
+
+        <input type="image" src=""> <!-- submit but it would be an image if i linked one-->
+    </form>
+</body>
+</html>
